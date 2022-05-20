@@ -56,16 +56,12 @@ public class ChatController implements Initializable {
 
         } else {
             assert recipient != null;
-            if (recipient.isEmpty()) {
 
-                chatArea.appendText("broadcast: " + text + System.lineSeparator());
-                inputField.clear();
-                return;
-            }
+            chatArea.appendText("broadcast: " + text + System.lineSeparator());
+            inputField.clear();
+            return;
         }
 
-        chatArea.requestFocus();
-        inputField.clear();
     }
 
     @Override
