@@ -19,5 +19,6 @@ public class Application extends javafx.application.Application {
         Scene scene = new Scene(parent);
         primaryStage.setScene(scene);
         primaryStage.show();
+
     }
 }
