@@ -59,7 +59,6 @@ public class ChatController implements Initializable {
 
             chatArea.appendText("broadcast: " + text + System.lineSeparator());
             inputField.clear();
-            return;
         }
 
     }
